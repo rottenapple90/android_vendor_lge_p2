@@ -22,9 +22,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p2/proprietary/bin/rild:system/bin/rild \
     vendor/lge/p2/proprietary/lib/lge-ril.so:system/lib/lge-ril.so \
     vendor/lge/p2/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/lge/p2/proprietary/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
-    vendor/lge/p2/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
-    vendor/lge/p2/proprietary/vendor/firmware/fw_bcmdhd_p2p.bin:system/vendor/firmware/fw_bcmdhd_p2p.bin \
+    vendor/lge/p2/proprietary/vendor/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
+    vendor/lge/p2/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
+    vendor/lge/p2/proprietary/vendor/firmware/fw_bcmdhd_p2p.bin:system/etc/firmware/fw_bcmdhd_p2p.bin \
     vendor/lge/p2/proprietary/lib/hw/camera.omap4.so:system/lib/hw/camera.omap4.so \
     vendor/lge/p2/proprietary/bin/glgps:system/bin/glgps \
     vendor/lge/p2/proprietary/lib/hw/gps.omap4.so:system/lib/hw/gps.omap4.so \
@@ -36,7 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p2/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/lge/p2/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/p2/proprietary/vendor/firmware/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin \
-    vendor/lge/p2/proprietary/vendor/firmware/bcm4330.hcd:system/vendor/firmware/bcm4330.hcd \
+    vendor/lge/p2/proprietary/vendor/firmware/bcm4330.hcd:system/etc/firmware/bcm4330.hcd \
     vendor/lge/p2/proprietary/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
     vendor/lge/p2/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
     vendor/lge/p2/proprietary/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
